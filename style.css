@@ -11,6 +11,19 @@ body{
   padding: 0 20px;
 }
 
+MainTitle {
+  background: #efefef;
+  height: 100px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+
 ::selection{
   color: #fff;
   background: #664AFF;
@@ -87,14 +100,3 @@ body{
   cursor: pointer;
 }
 
-.MainTitle {
-  background: #efefef;
-  height: 100px;
-  width: 100%;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  padding: 0 60px 0 20px;
-  font-size: 18px;
-  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
-}
